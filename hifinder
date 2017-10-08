@@ -14,7 +14,6 @@ gi.require_version('WebKit', '3.0')
 from gi.repository import WebKit, GLib
 import requests
 from bs4 import BeautifulSoup
-from timeit import timeit
 
 
 class CLI(object):
