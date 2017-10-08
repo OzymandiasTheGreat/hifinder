@@ -1,0 +1,10 @@
+'-m', '--match-by', help='choose matching mode, dafault is auto (by width for
+horizontal images, by height for vertical)', choices=['auto', 'width', 'heght', 'area']
+
+'-e', '--ensure-ext', help='check if extensions match mimetype, rename if needed'
+
+'-l', '--save-links', help='save links to orgin sites in destination directory'
+
+'-d', '--dry-run', help='find Hi-Res images and print their urls with any errors without downloading anything'
+
+'-r', '--minimum-res', help='minimum resolution for downloading e.g. 1280x800'
