@@ -14,6 +14,8 @@ resolution image. This script is powered by Google Reverse Image Search.
 Be warned that execution takes a bit of time.
 This is intentional as hitting Google too hard and fast triggers bot detection.
 
+![demo](./screenshot/demo.gif)
+
 ## Install
 
 As `hifinder` is written in TypeScript, it needs Node to run.
