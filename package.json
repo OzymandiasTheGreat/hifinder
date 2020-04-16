@@ -1,0 +1,42 @@
+{
+  "name": "hifinder",
+  "version": "1.0.0",
+  "description": "Find highest resolution versions of local images from command line using Google's Reverse Image Search",
+  "keywords": [
+    "google",
+    "reverse-image-search",
+    "wallpaper",
+    "gris",
+    "cli"
+  ],
+  "repository": "https://github.com/OzymandiasTheGreat/hifinder",
+  "author": {
+    "name": "Ozymandias (Tomas Ravinskas)",
+    "email": "tomas.rav@gmail.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "hifinder": "dist/hifinder.js"
+  },
+  "scripts": {
+    "start": "node dist/hifinder.js"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "content-disposition": "^0.5.3",
+    "fs-extra": "^9.0.0",
+    "google-reverse-image-search": "^0.1.1",
+    "image-size": "^0.8.3",
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.3",
+    "terminal-link": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/content-disposition": "^0.5.3",
+    "@types/fs-extra": "^8.1.0",
+    "@types/node-fetch": "^2.5.6",
+    "typescript": "^3.8.3"
+  }
+}
